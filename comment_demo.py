@@ -9,7 +9,7 @@ from sqlalchemy import Column, Integer, String
 
 connect_params = {
     'dialect': 'mysql',
-    'driver': 'mysqldb',
+    'driver': 'pymysql',
     'username': 'root',
     'password': 'zhujiongyao',
     'host': 'localhost',

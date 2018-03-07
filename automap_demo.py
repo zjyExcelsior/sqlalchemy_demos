@@ -1,5 +1,5 @@
 # coding: utf-8
-"""SQLAlchemy comment demo"""
+"""SQLAlchemy automap demo"""
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -7,8 +7,8 @@ from sqlalchemy.orm import sessionmaker
 connect_params = {
     'dialect': 'mysql',
     'driver': 'pymysql',
-    'username': 'root',
-    'password': 'zhujiongyao',
+    'username': 'testonly',
+    'password': 'testonly',
     'host': 'localhost',
     'port': 3306,
     'database': 'comment_demo'

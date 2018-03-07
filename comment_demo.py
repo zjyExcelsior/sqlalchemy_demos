@@ -10,8 +10,8 @@ from sqlalchemy import Column, Integer, String
 connect_params = {
     'dialect': 'mysql',
     'driver': 'pymysql',
-    'username': 'root',
-    'password': 'zhujiongyao',
+    'username': 'testonly',
+    'password': 'testonly',
     'host': 'localhost',
     'port': 3306,
     'database': 'comment_demo'

@@ -32,8 +32,8 @@ NEW_PASS = 'new_passowrd'
 
 
 def print_session_id():
-    print('Session id: %s', Session)
-    print('session id: %s', Session())
+    print('Session id: %s', id(Session))
+    print('session id: %s', id(Session()))
     print('------------------')
 
 
@@ -62,6 +62,7 @@ def modify_user(new_password):
 def list_users():
     print_session_id()
     users = Session.query(User).all()
+    Session.remove()
     return users
 
 

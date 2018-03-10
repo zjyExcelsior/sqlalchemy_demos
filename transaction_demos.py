@@ -151,18 +151,6 @@ def test_tran1_success_tran2_failure():
     assert card_nums == 0
 
 
-class AaBbCc(object):
-    """AaBbCc"""
-    aa = 123
-
-    def test_it():
-        pass
-
-
-def call_func_that_takes_a_dict(*args, **kwargs):
-    pass
-
-
 if __name__ == '__main__':
     drop_tables(engine)
     create_tables(engine)
